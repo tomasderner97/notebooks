@@ -3,5 +3,4 @@ scipy
 pandas
 matplotlib
 sympy
-ipywidgets
 ipycanvas
