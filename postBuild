@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# ipywidgets
+jupyter nbextension enable --py widgetsnbextension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+
+# ipycanvas
+jupyter nbextension enable --py --sys-prefix ipycanvas
+jupyter labextension install @jupyter-widgets/jupyterlab-manager ipycanvas
+
+# plotly
+jupyter labextension install jupyterlab-plotly
+jupyter labextension install plotlywidget

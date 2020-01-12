@@ -1,2 +1,0 @@
-added filter code in .git/config
-added line to .git/info/attributes registering the filter
